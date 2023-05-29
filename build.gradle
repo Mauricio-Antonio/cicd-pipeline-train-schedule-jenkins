@@ -6,6 +6,8 @@ plugins {
 node {
 	download = true
 //	version = "9.11.1"
+// README about issue "Could not GET 'https://nodejs.org/dist/v9.11.1/ivy.xml'. Received status code 403 from server: Forbidden"
+// https://stackoverflow.com/questions/75795920/could-not-get-resource-https-nodejs-org-dist-v14-19-3-ivy-xml
 	version = "9.11.2"
 	distBaseUrl = 'https://direct.nodejs.org/dist/'
 	npmVersion = "5.6.0"
